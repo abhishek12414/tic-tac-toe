@@ -1,0 +1,28 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: rgba(255, 255, 255, 0.6);
+	background: linear-gradient(138.13deg, #22343c 25.87%, #1f2e35 100%);
+	border-top: 1px solid rgb(112, 107, 107);
+	padding: 8px;
+	.content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.copyright {
+			margin-left: 4px;
+		}
+	}
+	.links {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		:not(:first-child) {
+			margin-left: 8px;
+		}
+		a {
+			display: flex;
+		}
+	}
+}
